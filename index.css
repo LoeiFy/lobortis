@@ -28,3 +28,17 @@ body {
   position: relative;
   word-wrap: break-word;
 }
+.section {
+  background-position: center;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+#home {
+  background-image: url(images/bg0.jpg);
+}
+#works {
+  background-image: url(images/bg1.jpg);
+}
+#contact {
+  background-image: url(images/bg2.jpg);
+}
