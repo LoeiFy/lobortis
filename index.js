@@ -2,6 +2,7 @@ $(function() {
   $('#fullpage').fullpage({
     verticalCentered: true,
     navigation: true,
+    slidesNavigation: true,
     navigationTooltips: ['HOME', 'OUR SKILLS', 'OUR WORKS', 'CONTACT'],
     scrollOverflow: true,
     onLeave: function(index, next) {
