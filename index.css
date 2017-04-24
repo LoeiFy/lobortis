@@ -321,3 +321,47 @@ body {
   margin: 0 20px;
   color: #999;
 }
+#contact h2 {
+  font-size: 70px;
+  font-weight: 700;
+  color: #fff;
+}
+#contact h2 span {
+  color: #fffcad;
+}
+#contact h2:after {
+  content: '—';
+  color: #fffcad;
+  display: block;
+  font-size: 40px;
+  margin-left: 10px;
+}
+#contact .inner {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+  text-align: center;
+}
+#contact .text {
+  display: inline-block;
+  text-align: left;
+}
+#contact .social {
+  position: static;
+  width: 336px;
+  margin: 70px auto 0;
+}
+#contact a {
+  color: #fff;
+  text-decoration: none;
+  width: auto;
+  background-size: 40px 40px;
+  background-position: left center;
+  background-repeat: no-repeat;
+  text-align: left;
+  padding-left: 60px;
+  line-height: 40px;
+  font-weight: 700;
+  font-size: 16px;
+}
