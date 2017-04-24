@@ -287,3 +287,37 @@ body {
   top: 50%;
   margin: 186px 0 0 280px!important;
 }
+.works {
+  margin: 240px auto 0;
+  width: 90%;
+  max-width: 1000px;
+  text-align: center;
+  padding-bottom: 150px;
+}
+.works a {
+  width: 400px;
+  margin: 30px;
+  display: inline-block;
+  text-align: left;
+  background: #fff;
+  padding-bottom: 50px;
+  box-shadow: 0 3px 30px rgba(0, 0, 0, .2);
+  text-decoration: none;
+}
+.works img {
+  display: block;
+  width: 400px;
+  height: 450px;
+}
+.works h3 {
+  color: #000;
+  margin: 30px 0 10px 20px;
+  font-size: 18px;
+  font-weight: 700;
+}
+.works p {
+  font-size: 14px;
+  line-height: 1.6;
+  margin: 0 20px;
+  color: #999;
+}
