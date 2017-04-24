@@ -100,3 +100,79 @@ body {
 #contact {
   background-image: url(images/bg2.jpg);
 }
+.logo {
+  background-image: url(images/svg/logo.svg);
+  width: 160px;
+  height: 160px;
+  background-size: cover;
+}
+.social {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -100px;
+}
+.social a {
+  margin: 20px 0;
+  width: 40px;
+  height: 40px;
+  display: block;
+  background-image: url(images/svg/wexin.svg);
+  background-size: cover;
+  background-position: center;
+}
+.social a.zcool {
+  background-image: url(images/svg/zcool.svg);
+  background-size: 36px 36px;
+}
+.social a.mail {
+  background-image: url(images/svg/mail.svg);
+  background-size: 36px 36px;
+}
+.down {
+  background-image: url(images/svg/arrow.svg);
+  background-size: cover;
+  width: 40px;
+  height: 40px;
+  border: 5px solid #fff;
+  -webkit-transform: rotate(90deg);
+  transform: rotate(90deg);
+  position: absolute;
+  bottom: 70px;
+  left: 50%;
+  margin-left: -20px;
+}
+#home .inner {
+  position: relative;
+  max-width: 1200px;
+  display: table;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
+  color: #fff;
+}
+#home .text {
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+}
+#home h2 {
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+#home h2:after {
+  content: '—';
+  color: #fffcad;
+  display: block;
+  font-size: 40px;
+  margin-left: 10px;
+}
+#home h2 span {
+  color: #fffcad;
+}
+#home p {
+  font-size: 20px;
+  margin: 20px 0 0 10px;
+  font-weight: 700;
+}
