@@ -91,6 +91,19 @@ body {
   -webkit-background-size: cover;
   background-size: cover;
 }
+.animation {
+  -webkit-transition: all .7s ease;
+  transition: all .7s ease;
+  -webkit-transform: translateY(60px);
+  transform: translateY(60px);
+  opacity: 0;
+  display: inline-block;
+}
+.fp-completely .animation {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
 #home {
   background-image: url(images/bg0.jpg);
 }
@@ -210,6 +223,14 @@ body {
   display: inline-block;
   vertical-align: middle;
   margin-left: -280px;
+  -webkit-transform: translateX(-50px);
+  transform: translateX(-50px);
+  -webkit-transition: all .3s ease-in-out .7s;
+  transition: all .3s ease-in-out .7s;
+}
+.slide.active img {
+  -webkit-transform: translateX(0);
+  transform: translateX(0);
 }
 .slide img + div {
   width: 300px;
@@ -221,6 +242,7 @@ body {
   margin-left: -60px;
   text-align: left;
   height: 180px;
+  position: relative;
 }
 .slide h3 {
   font-size: 20px;
