@@ -438,3 +438,86 @@ body {
   font-weight: 700;
   font-size: 16px;
 }
+
+@media screen and (max-width: 700px) {
+  #fp-nav {
+    display: none;
+  }
+  #home .inner {
+    width: 94%;
+  }
+  #home .social {
+    display: none;
+  }
+  .logo {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+  }
+  #home h2 {
+    font-size: 40px;
+  }
+  #home h2:after {
+    font-size: 20px;
+  }
+  #home p {
+    margin-left: 5px;
+  }
+  .down {
+    bottom: 30px;
+    width: 30px;
+    height: 30px;
+  }
+  .fp-slidesNav {
+    display: none;
+  }
+  .slide img {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    transform: translateX(0);
+  }
+  .slide img + div {
+    width: 100%;
+    display: block;
+    margin-left: 0;
+    box-sizing: border-box;
+    padding: 30px 10px;
+    box-shadow: none;
+  }
+  .slide h3 {
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 26px;
+  }
+  .fp-controlArrow.fp-next {
+    margin: 0;
+    left: auto;
+    right: 0;
+    background: transparent;
+    box-shadow: none;
+  }
+  .works {
+    margin-top: 180px;
+    padding-bottom: 70px;
+  }
+  .parallax {
+    width: 300px;
+    margin: 0 0 20px 0;
+  }
+  .works img {
+    width: 300px;
+    height: 195px;
+  }
+  #contact .text {
+    width: 100%;
+  }
+  #contact h2 {
+    font-size: 40px;
+  }
+  #contact h2:after {
+    font-size: 30px;
+    margin-left: 5px;
+  }
+}
