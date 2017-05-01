@@ -400,7 +400,7 @@ body {
   height: 70px;
 }
 #contact h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   color: #fff;
 }
@@ -461,12 +461,13 @@ body {
     position: absolute;
   }
   #home h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   #home h2:after {
     font-size: 20px;
   }
   #home p {
+    font-size: 16px;
     margin-left: 5px;
   }
   .down {
@@ -495,7 +496,12 @@ body {
     margin-bottom: 20px;
   }
   .title {
-    font-size: 26px;
+    font-size: 20px;
+    top: 10px;
+    padding-top: 50px;
+  }
+  .slide {
+    margin-top: 36px;
   }
   .fp-controlArrow.fp-next {
     margin: 0;
@@ -503,6 +509,7 @@ body {
     right: 0;
     background: transparent;
     box-shadow: none;
+    margin-top: -10px;
   }
   .works {
     margin-top: 180px;
@@ -521,7 +528,7 @@ body {
     width: 100%;
   }
   #contact h2 {
-    font-size: 40px;
+    font-size: 30px;
   }
   #contact h2:after {
     font-size: 30px;
