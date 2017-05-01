@@ -158,6 +158,9 @@ body {
   left: 50%;
   margin-left: -20px;
 }
+#home .social {
+  display: none;
+}
 #home .inner {
   position: relative;
   max-width: 1200px;
@@ -173,7 +176,7 @@ body {
   letter-spacing: 1px;
 }
 #home h2 {
-  font-size: 70px;
+  font-size: 60px;
   font-weight: 700;
   line-height: 1.2;
 }
@@ -325,6 +328,7 @@ body {
   text-align: left;
   text-decoration: none;
   position: relative;
+  vertical-align: top;
 }
 .parallax .h {
   position: absolute;
@@ -393,6 +397,7 @@ body {
   margin: 0 20px;
   padding-bottom: 30px;
   color: #999;
+  height: 70px;
 }
 #contact h2 {
   font-size: 70px;
@@ -419,6 +424,7 @@ body {
 #contact .text {
   display: inline-block;
   text-align: left;
+  width: 336px;
 }
 #contact .social {
   position: static;
@@ -510,7 +516,8 @@ body {
     width: 300px;
     height: 195px;
   }
-  #contact .text {
+  #contact .text,
+  #contact .social {
     width: 100%;
   }
   #contact h2 {
