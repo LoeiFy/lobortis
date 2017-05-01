@@ -3,7 +3,7 @@ $(function() {
     verticalCentered: true,
     navigation: true,
     slidesNavigation: true,
-    navigationTooltips: ['HOME', 'OUR SKILLS', 'OUR WORKS', 'CONTACT'],
+    navigationTooltips: ['首页', '产品服务', '作品展示', '联系我们'],
     scrollOverflow: true,
     onLeave: function(index, next) {
       if (next === 2 || next === 3) {
